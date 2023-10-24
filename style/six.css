@@ -1,0 +1,49 @@
+.six{
+    height: 75vh;
+    background-color: rgb(26 26 26);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.six .logo{
+    margin-top: 3rem;
+    width: 9rem;
+    font-size: large;
+    
+}
+
+.six ul{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 4rem;
+    color: rgb(202, 202, 202);
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+.six ul li{
+    cursor: pointer;
+}
+
+.six .white-text{
+    width: 90%;
+    text-align: center;
+    line-height: 2rem;
+    color: rgb(202, 202, 202);
+    margin-top: 4rem;
+}
+
+.six  .red-text{
+    color: #d32e34;
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+
+.six  .red-text a{
+    color: #d32e34;
+}
+

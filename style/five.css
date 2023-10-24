@@ -1,0 +1,85 @@
+.five{
+    height: 150vh;
+    width: 100%;
+    position: relative;
+}
+
+.five .big-text{
+    position: absolute;
+    top: 7%;
+    left: 5%;
+    font-size:3rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.five .text{
+    position: absolute;
+    top: 28%;
+    left:5%;
+    font-size: large;
+    color: black;
+    line-height: 2rem;
+    text-align: justify;
+    width: 40%;
+    letter-spacing: 1px;
+}
+
+.five .text > span{
+    font-size: large;
+    color:#d32e34;
+    font-weight: 800;
+}
+
+.five  .first-btn{
+    position: absolute;
+    top: 88%;
+    left:6%;
+    line-height: 0.8;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    border: none;
+    color:white;
+    background-color: #d32e34;
+    font-size:xx-large;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.five .first-btn span{
+    font-size:1rem;
+    padding: 0;
+}
+
+
+/*image*/
+
+.five .img {
+    position: absolute;
+    right: 5%;
+    top: 15%;
+}
+.five .img .profil{
+    position: absolute;
+   
+
+}
+
+.five .img .me{
+    position: absolute;
+    top: -10%;
+    left: -15%;
+    height: 50vh;
+}
+
+.five .img .hdi{
+    position: absolute;
+    top: 60%;
+    right:-8%;
+    height: 50vh;
+}
+
+
+
+

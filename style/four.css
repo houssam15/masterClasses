@@ -1,0 +1,155 @@
+.four{
+    height: 140vh;
+    width: 100%;
+    position: relative;
+    background-color: #eeeded;
+}
+
+/*center and rotate logo in sideBars*/
+.four .sideBar-g{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    height: 140vh;
+    width: 6%;
+    background-color:#d32e34;
+}
+
+.globalStyle{
+    text-align: center;
+    border: 2px solid white;
+    width: 7rem;
+    font-size: small;
+    font-weight: 800;
+    cursor: pointer;
+    color: white;
+}
+.four .sideBar1 .logo {
+    rotate:calc(-90deg);
+}
+
+.four .sideBar2 .logo {
+    rotate:calc(90deg);
+}
+
+/*sideBars*/
+.four .sideBar2{
+    right: 0%;
+}
+
+/*cards*/
+
+.four .cards{
+    position: absolute;
+    height: 55vh;
+    width: 80%;
+    top: 22%;
+    left: 9.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.four .cards .secret{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    height: 80vh;
+
+}
+.four .cards .secret h1{
+    color: hsl(0, 0%, 52%);
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.four .cards .secret .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #d6d4d4;
+    width: 19rem;
+    height: 50vh;
+
+    
+
+}
+.four .cards  .secret .card h2  {
+    color: black;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.four .cards .card p  {
+    color: rgba(41, 40, 40, 0.719);
+    line-height: 2rem;
+    width: 80%;
+    
+}
+/*icons*/
+.four .cards .card div {
+    background-color: #d32e34;
+    border-radius: 100%;
+    min-width: 7.5rem;
+    min-height: 7.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -4rem;
+}
+.four .cards .card div img {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+.four .text{
+    position: absolute;
+    top: 70%;
+    width: 62%;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.863);
+    left: 20%;
+    text-align: center;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 0.5px;
+}
+
+.four .first-btn{
+    position: absolute;
+    top: 85%;
+    left:34%;
+    line-height: 0.8;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    border: none;
+    color:white;
+    background-color: black;
+    font-size:xx-large;
+    font-weight: 900;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.877);
+
+
+}
+
+.four .first-btn span{
+    font-size:1rem;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+

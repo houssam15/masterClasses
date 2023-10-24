@@ -1,0 +1,128 @@
+.third{
+    height: 150vh;
+    position: relative;
+    background-color: aliceblue;
+}
+
+/*titles*/
+.third .titles{
+    line-height: 5rem;
+    position: absolute;
+    top: 2rem;
+    right: 10%;
+    left: 10%;
+}
+.third .titles h1{
+    text-align: center;
+    font-size: 6rem;
+    letter-spacing: 2px;
+    
+}
+.third .titles .red-title{
+    color: #d32e34;
+}
+.third .titles .black-title{
+    color: black;
+}
+
+/*background of section third*/
+
+.third .bg-triangle{
+    position: absolute;
+    top: 20%;
+    left: -15%;
+    height: 100vh;
+    width: 50rem;
+    height: 40rem;
+    rotate:calc(100deg) ;
+
+}
+
+/*text part*/
+.third .text {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 40%;
+
+}
+
+.third .text h1{
+    font-size: xx-large;
+    color: black;
+    margin-bottom: 2rem;
+    font-weight: 900;
+    text-align: end;
+}
+
+.third .text h1 span{
+    color: #d32e34;
+}
+
+.third .text p{
+    font-size: x-large;
+    color: black;
+    line-height: 3rem;
+    padding-left: 10%;
+    text-align: justify;
+
+}
+
+.third .text p span{
+    color: #d32e34;
+    font-weight: 700;
+}
+
+/*button*/
+.third .first-btn{
+    position: absolute;
+    top: 80%;
+    left:11%;
+    line-height: 0.8;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    border: none;
+    color:white;
+    background-color: black;
+    font-size:xx-large;
+    font-weight: 900;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.877);
+
+}
+.third .first-btn span{
+    font-size:1rem;
+    padding: 0;
+}
+
+/*image*/
+.third .img2-bg{
+    position: absolute;
+    height: 100vh;
+    right: -10%;
+    top: 25%;
+    background-image: url("/assets/img2-bg.png");
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+
+
+/*text2*/
+.third .text2{
+    color: black;
+    position: absolute;
+    bottom:-8%;
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
+    left: 5%;
+    right: 5%;
+    z-index: 9999;
+    
+    
+}
+.third .text2 span{
+    color: #d32e34;
+    font-size: 3.5rem;
+    font-weight: 900;
+}

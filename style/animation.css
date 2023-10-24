@@ -31,3 +31,8 @@
 .secret:nth-child(4){
     transition-delay: 600ms;
 }
+
+.first-btn:hover{
+    background-color:rgba(0, 0, 0, 0.445);
+    transition: 1s all;
+}
